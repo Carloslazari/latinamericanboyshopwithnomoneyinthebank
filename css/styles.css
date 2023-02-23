@@ -105,3 +105,15 @@ body{
 p{
     text-align: center;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .card {
+        width: 47%; 
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .card {
+        width: 100%;
+    }
+}
